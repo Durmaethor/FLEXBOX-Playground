@@ -1,0 +1,31 @@
+html, 
+body {
+    margin: 0;
+}
+
+header {
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-nav {
+    display: flex;
+    flex-direction: row;
+    background-color: darkgrey;
+    justify-content: space-around;
+}
+
+li.item {
+    flex: 0 1 auto;
+    align-self: center;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
